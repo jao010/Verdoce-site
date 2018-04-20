@@ -1,0 +1,223 @@
+/*------- PADRAO DO SITE --------*/
+body 
+{background-color: rgba(223,23,124,1) ;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ font-family:serif;
+ margin: -2;
+ width: 100%;
+ height: 102%;
+ min-height: inherit;
+ padding: 0em 0em 0em;
+ line-height:1.5em ;
+ font-size: 20;
+ max-width:100%;
+ z-index:9999;
+ overflow-x: hidden;}
+
+
+.alignquemsomos{
+    position: relative;
+}
+.tituloquemsomos
+{   
+    
+    font-size: 60px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute; 
+    margin: 0 auto;
+    top: 5%;
+    left:30%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999;
+    display:table-cell;
+    vertical-align:0px;
+    word-wrap: break-word;
+}
+
+p.tituloprodutos
+{   
+    font-size: 50px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:32%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+/*--------------- LOGO--------------*/
+div.divlogo 
+{height: 60px;  
+ width: 102%;
+ position:fixed;
+ margin-top: -80px;
+ background-color:rgb(223,23,124);
+ background-image: url(logoll.jpg);
+ background-repeat: no-repeat;
+ background-size: 55px 100%;
+ z-index:9999; 
+ box-sizing: border-box;
+ background-position: left;
+ box-shadow: 0px 0px 20px 0px  black;}
+
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ margin-left: 20%;
+ margin-top: 0.5% ;
+ position: static;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;}
+
+#navMenu ul li a
+{padding: 10px;
+ height: 35%;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: 10px;
+ height: 30%;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration:underline;}
+
+/*------------- BOTÃO --------------*/
+#buttonEstilo 
+{border: 0px;
+ border-radius: 5px;
+ background-color:rgb(223,100,124);
+ }
+
+#buttonEstilo:hover
+{background: rgb(240,20,89);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.5s ease;
+ text-decoration:inherit;
+ }
+
+#buttonEstilo:active
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+#buttonEstilo:focus
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+
+/*----------- QUEM SOMOS-------*/
+div.quemsomos
+{background: rgba(240,248,255,1);
+ margin-top:80px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 102%;
+ height: 60%;
+ box-sizing: border-box;
+ border: 1px solid rgba(34,211,35,1);}
+
+.fotologo
+{   
+    background: aqua;
+    background-image: url('logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50%;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    
+}
+
+/*-----------------Produtos--------------*/
+
+div.divproduto{
+    background-image: url(coxinha-barata.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    margin-top:96px;
+    z-index: 1;
+    box-shadow: inset 0px 0px 0px  black;
+    position:relative;
+    width: 102%;
+    height: 70%;
+    overflow:inherit;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.escura{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#subprodutosid {
+  
+/*    margin-bottom: 10%;*/
+    left: 32%;
+    top: 20%;
+    display:table;
+    background-color: rgba(0,0,0,0);
+    float:none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+/*    list-style:none;*/
+    height: 10px;
+    position: absolute;
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,747 @@
+/*------- PADRAO DO SITE --------*/
+body
+{background-color: rgba(223,23,124,1) ;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ font-family:serif;
+ margin: -2;
+ width: 80%;
+ height: 100%;
+ min-height: inherit;
+ padding: 0em 0em 0em;
+ line-height:1.5em ;
+ font-size: 20;
+ max-width:100%;
+ z-index:9999;
+ overflow-x: hidden;
+ text-align: center;
+ }
+
+
+@font-face{
+    font-family:"ARCARTER";
+     src: url(../../FONTS/ARCARTER.ttf) format("truetype");
+}
+
+.alignquemsomos{
+    position: relative;
+}
+
+/*--------------- LOGO--------------*/
+div.divlogo 
+{height: 60px;  
+ width: 102%;
+ position:fixed;
+ margin-top: -62px;
+ background-color:rgb(223,23,124);
+ background-image: url("../../FOTOS/logoll.jpg");
+ background-repeat: no-repeat;
+ background-size: 55px 100%;
+ z-index:9999; 
+ box-sizing: border-box;
+ background-position: left;
+ box-shadow: 0px 0px 10px 0px  black;}
+
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 30%;
+ bottom: 10px;
+ position: relative;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: 10px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: 10px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration:underline;}
+
+
+
+/*------------- BOTÃO --------------*/
+#buttonEstilo 
+{border: 0px;
+ border-radius: 5px;
+ background-color:rgb(223,100,124);
+ }
+
+#buttonEstilo:hover
+{background: rgb(240,20,89);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.5s ease;
+ text-decoration:inherit;
+ }
+
+#buttonEstilo:active
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+#buttonEstilo:focus
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+/*===========================================================================================================================================*/
+/*=======================================================PORTIFOLIO======================================================================*/
+/*==========================================================P2===============================================================================*/
+
+
+/*-----------PORTIFOLIO-------*/
+div.FOTOS{
+ background: rgb(223,23,124);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 1200px;
+ box-sizing: border-box;
+ border-bottom: 3px solid rgba(34,211,35,1);
+ border-top: 2px solid rgba(34,211,35,1);
+}
+
+/*=============== TRIO 1 ==================*/
+div.foto1{
+    position: absolute;
+    top: 10px;
+    float: left;
+    margin: 0 auto;
+    left: 10px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto2{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto3{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+/*============= TRIO 2 =================*/
+
+div.foto4{
+    position: absolute;
+    top: 350px;
+    float: left;
+    margin: 0 auto;
+    left: 10px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto5{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto6{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+/*============= TRIO 3 =================*/
+
+div.foto7{
+    position: absolute;
+    top: 700px;
+    float: left;
+    margin: 0 auto;
+    left: 10px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto8{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+div.foto9{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 420px;
+    width: 100px;
+    height: 200px;
+}
+
+.imagest{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.imagestL{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.imagest:hover{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 400px;
+    height: 400px;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 5px black;
+    position: absolute;
+}
+
+.imagestL:hover{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 400px;
+    height: 400px;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 5px black;
+    position: absolute;
+}
+
+
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:1198px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    
+}
+
+.divemail{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    top:20px;
+    left:100px;
+     
+}
+
+#caixadeemail {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:hover {
+    background-color: rgb(255,255,255); 
+    border: 3px solid rgb(240,20,89);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:focus {
+    background-color: rgb(223,100,124); 
+    border: 3px solid rgb(240,20,89);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+.botaoenviar {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: azure;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.botaoenviar:hover {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    box-shadow: 0px 2px 5px 2px black;
+    transition-duration: 0.2s;
+    position: relative;
+    top: 2px;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.botaoenviar:focus {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    box-shadow:  0px 0px 0px 0px black;
+/*    transition-duration: 0.5s;*/
+    position: relative;
+    top: 2px;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+/*========================== RESPONSIVE(max-399PX)===============================*/
+
+@media screen and (max-width: 399px){
+    
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 5%;
+ top: -10px;
+ width: 80%;
+ height: 50px;
+ position: relative;
+ overflow:auto; 
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 90%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 90%;
+ font-family: fantasy;
+ text-decoration: none;}
+}
+
+/*========================== RESPONSIVE(400PX-767PX)===============================*/
+
+@media screen and (min-width: 400px) and (max-width: 767px){
+    
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 8%;
+ top: -10px;
+ height: 60px;
+ position: absolute;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 140%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 140%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+    
+}
+
+/*========================== RESPONSIVE(768PX-1124PX)===============================*/
+
+@media screen and (min-width: 768px) and (max-width: 1124px){
+    
+    /*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 20%;
+ top: -10px;
+ position: absolute;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: 15px;
+ height: 35%;
+ bottom:7px;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: 15px;
+ height: 35%;
+ bottom:7px;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+    
+/*===========================================================================================================================================*/
+/*=======================================================PORTIFOLIO======================================================================*/
+/*==========================================================P2===============================================================================*/
+
+
+/*-----------PORTIFOLIO-------*/
+div.FOTOS{
+ background: rgb(223,23,124);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 920px;
+ box-sizing: border-box;
+ border-bottom: 3px solid rgba(34,211,35,1);
+ border-top: 2px solid rgba(34,211,35,1);
+}
+
+/*=============== TRIO 1 ==================*/
+div.foto1{
+    position: absolute;
+    top: 10px;
+    float: left;
+    margin: 0 auto;
+    left: 1px;
+    width: 30px;
+    height: 200px;
+}
+
+div.foto2{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 260px;
+    width: 10px;
+    height: 20px;
+}
+
+div.foto3{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 220px;
+    width: 10px;
+    height: 20px;
+}
+
+/*============= TRIO 2 =================*/
+
+div.foto4{
+    position: absolute;
+    top: 250px;
+    float: left;
+    margin: 0 auto;
+    left: 1px;
+    width: 30px;
+    height: 200px;
+}
+
+div.foto5{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 260px;
+    width: 10px;
+    height: 20px;
+}
+
+div.foto6{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 220px;
+    width: 10px;
+    height: 20px;
+}
+/*============= TRIO 3 =================*/
+
+div.foto7{
+    position: absolute;
+    top: 500px;
+    float: left;
+    margin: 0 auto;
+    left: 1px;
+    width: 30px;
+    height: 200px;
+}
+
+div.foto8{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 260px;
+    width: 10px;
+    height: 20px;
+}
+
+div.foto9{
+    position: absolute;
+    top: 0px;
+    float: left;
+    margin: 0 auto;
+    left: 220px;
+    width: 10px;
+    height: 20px;
+}
+
+.imagest{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.imagestL{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+
+.imagest:hover{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 400px;
+    height: 400px;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 5px black;
+    position: absolute;
+}
+    
+.imagestL:hover{
+    border-radius: 20px;
+    border-style:outset;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-spacing:inherit;
+    transition: 0.2s;
+    transition-timing-function: linear;
+    width: 350px;
+    height: 350px;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 5px black;
+    position: absolute;
+    left: -60px;
+}
+    
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 10% 10%;
+    background-repeat: no-repeat;   
+    margin-top:918px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 280px;
+    box-sizing: border-box;
+    
+}
+
+.divemail{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    top:100px;
+    left:100px;
+     
+}
+
+
+}
+
+

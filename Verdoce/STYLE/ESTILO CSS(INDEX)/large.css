@@ -1,0 +1,1881 @@
+/*------- PADRAO DO SITE --------*/
+body
+{background-color: rgba(223,23,124,1) ;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ font-family:serif;
+ margin: -2;
+ width: 80%;
+ height: 100%;
+ min-height: inherit;
+ padding: 0em 0em 0em;
+ line-height:1.5em ;
+ font-size: 20;
+ max-width:100%;
+ z-index:9999;
+ overflow-x: hidden;
+ text-align: center;
+ }
+
+
+@font-face{
+    font-family:"ARCARTER";
+     src: url(../../FONTS/ARCARTER.ttf) format("truetype");
+}
+
+.alignquemsomos{
+    position: relative;
+}
+
+/*--------------- LOGO--------------*/
+div.divlogo 
+{height: 60px;  
+ width: 102%;
+ position:fixed;
+ margin-top: -62px;
+ background-color:rgb(223,23,124);
+ background-image: url("../../FOTOS/logoll.jpg");
+ background-repeat: no-repeat;
+ background-size: 55px 100%;
+ z-index:9999; 
+ box-sizing: border-box;
+ background-position: left;
+ box-shadow: 0px 0px 10px 0px  black;}
+
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 30%;
+ bottom: 10px;
+ position: relative;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: 10px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: 10px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration:underline;}
+
+
+
+/*------------- BOTÃO --------------*/
+#buttonEstilo 
+{border: 0px;
+ border-radius: 5px;
+ background-color:rgb(223,100,124);
+ }
+
+#buttonEstilo:hover
+{background: rgb(240,20,89);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.5s ease;
+ text-decoration:inherit;
+ }
+
+#buttonEstilo:active
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+#buttonEstilo:focus
+{background: rgb(255,255,255);
+ box-shadow: 0px 2px 5px 0px black;
+ -webkit-transition: 0.2s ease;
+border-radius: 5px;
+ }
+
+/*===========================================================================================================================================*/
+/*=======================================================PAGINA INICIAL======================================================================*/
+/*==========================================================P1===============================================================================*/
+
+
+/*----------- QUEM SOMOS-------*/
+div.quemsomos
+{background: rgba(240,248,255,1);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 550px;
+ box-sizing: border-box;
+ border: 1px solid rgba(34,211,35,1);}
+
+.divalignquemsomos{
+    position: relative;
+    margin: 0 auto;
+    left: 40px;
+    background-color: ;
+    bottom: 250px;
+    width: 55%;
+    height: 25%;
+}
+
+.textoquemsomos
+{   
+    
+    font-size: 50px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: none;
+    position:relative;
+    margin-top: 10px;
+    top:30%;
+    left:47%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    text-align: center;
+    display:block;
+    font-family:"ARCARTER";
+    line-height: 0.7;
+}
+
+.tituloquemsomos
+{   
+    
+    font-size: 100px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:relative; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    top: 0%;
+    left:45%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    widows: inherit;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9999;
+    display:table-cell;
+    vertical-align:0px;
+    word-wrap: break-word;
+    font-family:"ARCARTER";
+}
+
+.fotologo
+{   
+    background: aqua;
+    background-image: url('../../FOTOS/logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    
+}
+
+/*-----------------Produtos--------------*/
+
+div.divproduto{
+    background-image: url(../../FOTOS/coxinha-barata.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    margin-top:96px;
+    z-index: 9999;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+
+
+.escura{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.tituloprodutos
+{   
+    font-size: 50px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:32%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+.subprodutos
+{   
+    font-size: 30px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subprodutosid {
+  
+/*    margin-bottom: 10%;*/
+    left: 14%;
+    bottom: 150px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------SABORES--------------*/
+
+div.divsabores{
+    background-image: url(../../FOTOS/bolo-no-pote-infantil.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+div.subbolopreço{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 150px;
+    left: -130px;
+    
+    
+
+}
+.subbolopreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.tituloprodutos
+{   
+    font-size: 50px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:32%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+.subsabores
+{   
+    font-size: 30px;
+    text-shadow: 0px 1px 0px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subsaboressid {
+  
+    left: 14%;
+    bottom: 200px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------TIPOS DE SALGADOS--------------*/
+
+div.divsalgado{
+    background-image: url(../../FOTOS/fritos_site.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.imagelist{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+.subsalgado
+{   
+    font-size: 45px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+div.subsalgadospreço{
+    position: relative;
+    float: none;
+    width: 30%;
+    height: 10%;
+    bottom: 400px;
+    left: 20px;
+    
+    
+
+}
+.subsalgadospreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+#subsalgadosid {
+  
+    left: 14%;
+    bottom: 200px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+   
+    height: 10px;
+    position: relative;
+    
+}
+
+
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-194px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:relative;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.divemail{
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    margin: 0 auto;
+    top:20px;
+    left:100px;
+    background-color: ; 
+}
+
+#caixadeemail {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:hover {
+    background-color: rgb(255,255,255); 
+    border: 3px solid rgb(240,20,89);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:focus {
+    background-color: rgb(223,100,124); 
+    border: 3px solid rgb(240,20,89);  
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+.botaoenviar {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    position: relative;
+    top: 2px;
+    left: 2px;
+    color: azure;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.botaoenviar:hover {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    box-shadow: 0px 2px 5px 2px black;
+    transition-duration: 0.2s;
+    position: relative;
+    top: 2px;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+.botaoenviar:focus {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);
+    box-shadow:  0px 0px 0px 0px black;
+/*    transition-duration: 0.5s;*/
+    position: relative;
+    top: 2px;
+    font-family:cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+/*========================== RESPONSIVE(max-399PX)===============================*/
+
+@media screen and (max-width: 399px){
+    
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 5%;
+ top: -10px;
+ width: 80%;
+ height: 50px;
+ position: relative;
+ overflow:auto; 
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 90%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 90%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+/*===========================================================================================================================================*/
+/*=======================================================PAGINA INICIAL======================================================================*/
+/*==========================================================P1===============================================================================*/
+
+
+/*----------- QUEM SOMOS-------*/
+div.quemsomos
+{background: rgba(240,248,255,1);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 2800px;
+ box-sizing: border-box;
+ border: 1px solid rgba(34,211,35,1);}
+
+.divalignquemsomos{
+    position: relative;
+    margin: 0 auto;
+    left: 2px;
+    top:100px;
+    width: 65%;
+    height: 25%;
+}
+
+.textoquemsomos
+{   
+    
+    font-size: 40px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: none;
+    position:relative;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    top:1%;
+    left:47%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    text-align: center;
+    display:block;
+    font-family:"ARCARTER";
+    line-height: 0.7;
+}
+
+.tituloquemsomos
+{   
+    
+    font-size: 400%;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:relative; 
+    margin: 0 auto;
+    margin-bottom: 30px;
+    top: -20px;
+    left:45%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    widows: inherit;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9999;
+    display:table-cell;
+    vertical-align:0px;
+    word-wrap: break-word;
+    font-family:"ARCARTER";
+}
+
+.fotologo
+{   
+    background: aqua;
+    background-image: url('../../FOTOS/logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 200px;
+    left: 30px;
+    top: 0 auto;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    
+}
+
+/*-----------------Produtos--------------*/
+
+div.divproduto{
+    background-image: url(../../FOTOS/coxinha-barata.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    margin-top:96px;
+    z-index: 9999;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 330px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+
+
+.escura{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.subprodutos
+{   
+    font-size: 16px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table; 
+    background-color: rgba(0,0,0,0);
+}
+
+#subprodutosid {
+  
+/*    margin-bottom: 10%;*/
+    left: -5%;
+    bottom: 130px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:3px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------SABORES--------------*/
+
+div.divsabores{
+    background-image: url(../../FOTOS/bolo-no-pote-infantil.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+div.subbolopreço{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 340px;
+    left: -10px;
+    
+    
+
+}
+.subbolopreço
+{   
+    font-size: 15px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.tituloprodutos
+{   
+    font-size: 30px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:5%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+.subsabores
+{   
+    font-size: 14.5px;
+    text-shadow: 0px 1px 0px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subsaboressid {
+  
+    left: -3%;
+    bottom: 210px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:1px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------TIPOS DE SALGADOS--------------*/
+
+div.divsalgado{
+    background-image: url(../../FOTOS/fritos_site.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-49px;
+    left: 2px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.imagelist{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+.subsalgado
+{   
+    font-size: 20px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+div.subsalgadospreço{
+    position: relative;
+    float: none;
+    width: 30%;
+    height: 10%;
+    bottom: 300px;
+    left: 20px;
+    
+    
+
+}
+.subsalgadospreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom:10px;
+    bottom: 80px;
+    right:0px;
+    line-height: 15px;
+    position: relative;
+    color: red;
+    display:list-item;
+    float: right;
+    background-color: rgba(0,0,0,0);
+}
+
+
+#subsalgadosid {
+  
+    left: 1%;
+    bottom: 290px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:2px;
+    list-style-position: outside;
+    white-space: nowrap;
+    height: 10px;
+    position: relative;
+    
+}
+
+
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-124px;
+    left: 2px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:relative;
+    width: 100%;
+    height: 329px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.divemail{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    top:100px;
+    left:-40px;}
+
+#caixadeemail {
+    background-color: rgb(240,20,89); 
+    border: 3px solid rgb(223,100,124);  
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:hover {
+    background-color: rgb(255,255,255); 
+    border: 3px solid rgb(240,20,89);  
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+#caixadeemail:focus {
+    background-color: rgb(223,100,124); 
+    border: 3px solid rgb(240,20,89);  
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+    
+/*========================FIM================*/
+
+}
+
+
+/*========================== RESPONSIVE(400PX-767PX)===============================*/
+
+@media screen and (min-width: 400px) and (max-width: 767px ){
+    
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 8%;
+ top: -10px;
+ height: 60px;
+ position: absolute;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 140%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: -1px;
+ height: 35%;
+ left: 0%;
+ letter-spacing:0px;
+ position: relative;
+ display: inline-block;
+ top: 1px;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 140%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+
+/*===========================================================================================================================================*/
+/*=======================================================PAGINA INICIAL======================================================================*/
+/*==========================================================P1===============================================================================*/
+
+
+/*----------- QUEM SOMOS-------*/
+div.quemsomos
+{background: rgba(240,248,255,1);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 2800px;
+ box-sizing: border-box;
+ border: 1px solid rgba(34,211,35,1);}
+
+.divalignquemsomos{
+    position: relative;
+    margin: 0 auto;
+    left: 2px;
+    top:100px;
+    width: 65%;
+    height: 25%;
+}
+
+.textoquemsomos
+{   
+    
+    font-size: 45px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: none;
+    position:relative;
+    margin-top: 20px;
+    top:10%;
+    left:47%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    text-align: center;
+    display:block;
+    font-family:"ARCARTER";
+    line-height: 0.7;
+}
+
+.tituloquemsomos
+{   
+    
+    font-size: 400%;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:relative; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    top: 0%;
+    left:45%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    widows: inherit;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9999;
+    display:table-cell;
+    vertical-align:0px;
+    word-wrap: break-word;
+    font-family:"ARCARTER";
+}
+
+.fotologo
+{   
+    background: aqua;
+    background-image: url('../../FOTOS/logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 200px;
+    left: 60px;
+    top: 0 auto;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    
+}
+
+/*-----------------Produtos--------------*/
+
+div.divproduto{
+    background-image: url(../../FOTOS/coxinha-barata.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    margin-top:96px;
+    z-index: 9999;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+
+
+.escura{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.subprodutos
+{   
+    font-size: 20px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subprodutosid {
+  
+/*    margin-bottom: 10%;*/
+    left: -3%;
+    bottom: 140px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------SABORES--------------*/
+
+div.divsabores{
+    background-image: url(../../FOTOS/bolo-no-pote-infantil.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+div.subbolopreço{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 420px;
+    left: -15px;
+    
+    
+
+}
+.subbolopreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.tituloprodutos
+{   
+    font-size: 40px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:5%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+.subsabores
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 0px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subsaboressid {
+  
+    left: -3%;
+    bottom: 240px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:1px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------TIPOS DE SALGADOS--------------*/
+
+div.divsalgado{
+    background-image: url(../../FOTOS/fritos_site.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-49px;
+    left: 2px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.imagelist{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+.subsalgado
+{   
+    font-size: 30px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+div.subsalgadospreço{
+    position: relative;
+    float: none;
+    width: 30%;
+    height: 10%;
+    bottom: 300px;
+    left: 20px;
+    
+    
+
+}
+.subsalgadospreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 15px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+#subsalgadosid {
+  
+    left: 1%;
+    bottom: 250px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:2px;
+    list-style-position: outside;
+    white-space: nowrap;
+    height: 10px;
+    position: relative;
+    
+}
+
+
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-124px;
+    left: 2px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:relative;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.divemail{
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    margin: 0 auto;
+    top:30px;
+    left:-40px;}
+    
+/*========================FIM================*/
+
+}
+
+/*========================== RESPONSIVE(768PX-1124PX)===============================*/
+
+@media screen and (min-width:768px ) and (max-width: 1124px){
+    
+/*-------------- MENU ------------*/
+
+
+#navMenu ul
+{float: left;
+ left: 20%;
+ top: -10px;
+ position: absolute;
+ list-style: none;}
+
+#navMenu ul li
+{display: inline;
+ letter-spacing:5px;
+ position: relative;}
+
+#navMenu ul li a
+{padding: 15px;
+ height: 35%;
+ bottom:7px;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration: none;}
+
+#navMenu ul li a:hover
+{padding: 15px;
+ height: 35%;
+ bottom:7px;
+ letter-spacing:2px;
+ position: relative;
+ display: inline-block;
+ /*VISUAL DO LINK*/
+ color: #333;
+ font-size: 150%;
+ font-family: fantasy;
+ text-decoration:underline;}
+
+
+/*===========================================================================================================================================*/
+/*=======================================================PAGINA INICIAL======================================================================*/
+/*==========================================================P1===============================================================================*/
+
+
+/*----------- QUEM SOMOS-------*/
+div.quemsomos
+{background: rgba(240,248,255,1);
+ margin-top:62px;
+ z-index: 1;
+ box-shadow: inset 0px 0px 6px black;
+ position: relative;
+ width: 132%;
+ height: 550px;
+ box-sizing: border-box;
+ border: 1px solid rgba(34,211,35,1);}
+
+.divalignquemsomos{
+    position: relative;
+    margin: 0 auto;
+    left: 70px;
+    bottom: 200px;
+    width: 65%;
+    height: 25%;
+}
+
+.textoquemsomos
+{   
+    
+    font-size: 45px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: none;
+    position:relative;
+    margin-top: 15px;
+    top:30%;
+    left:47%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    text-align: center;
+    display:block;
+    font-family:"ARCARTER";
+    line-height: 0.7;
+}
+
+.tituloquemsomos
+{   
+    
+    font-size: 100px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:relative; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+    top: 0%;
+    left:45%;
+    transform:translate(-50%,-50%); 
+    float: left;
+    widows: inherit;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9999;
+    display:table-cell;
+    vertical-align:0px;
+    word-wrap: break-word;
+    font-family:"ARCARTER";
+}
+
+.fotologo
+{   
+    background: aqua;
+    background-image: url('../../FOTOS/logo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    position:relative;
+    z-index: 1;
+    
+}
+
+/*-----------------Produtos--------------*/
+
+div.divproduto{
+    background-image: url(../../FOTOS/coxinha-barata.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    margin-top:96px;
+    z-index: 9999;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+
+
+.escura{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.subprodutos
+{   
+    font-size: 30px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subprodutosid {
+  
+/*    margin-bottom: 10%;*/
+    left: 10%;
+    bottom: 150px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:5px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------SABORES--------------*/
+
+div.divsabores{
+    background-image: url(../../FOTOS/bolo-no-pote-infantil.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+div.subbolopreço{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 100px;
+    left: -125px;
+    
+    
+
+}
+.subbolopreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.tituloprodutos
+{   
+    font-size: 50px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    text-decoration: underline;
+    position:absolute;
+    margin: 0 auto;
+    top: 10%;
+    left:20%;
+    float: left;
+    widows: inherit;
+    text-align: center;
+    opacity: 1;
+    display:table-cell;
+    vertical-align:100px;
+    white-space: nowrap;
+    z-index: 9999;
+    color: whitesmoke;
+    word-wrap: break-word;
+}
+
+.subsabores
+{   
+    font-size: 30px;
+    text-shadow: 0px 1px 0px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+#subsaboressid {
+  
+    left: 9%;
+    bottom: 200px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:1px;
+    list-style-position: outside;
+    white-space: nowrap;
+    list-style:none;
+    height: 10px;
+    position: relative;
+    
+}
+
+/*-----------------TIPOS DE SALGADOS--------------*/
+
+div.divsalgado{
+    background-image: url(../../FOTOS/fritos_site.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-59px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.imagelist{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+}
+
+
+
+
+.subsalgado
+{   
+    font-size: 45px;
+    text-shadow: 2px 2px 5px  rgba(0,0,0,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom: 10%;
+    color: whitesmoke;
+    display: table;
+    background-color: rgba(0,0,0,0);
+}
+
+div.subsalgadospreço{
+    position: relative;
+    float: none;
+    width: 30%;
+    height: 10%;
+    bottom: 400px;
+    left: 20px;
+    
+    
+
+}
+.subsalgadospreço
+{   
+    font-size: 20px;
+    text-shadow: 0px 1px 2px  rgba(255,255,255,1);
+    font-family:cursive, sans-serif, serif;
+    font-style: oblique;
+    font-variant-caps: small-caps; 
+    opacity: 1;
+    margin-bottom:0px;
+    bottom: 0px;
+    right:0px;
+    line-height: 10px;
+    position: relative;
+    color: red;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+}
+
+
+#subsalgadosid {
+  
+    left: 18%;
+    bottom: 200px;
+    display:list-item;
+    background-color: rgba(0,0,0,0);
+    float: none;
+    justify-content: center;
+    line-height: 100%;
+    letter-spacing:2px;
+    list-style-position: outside;
+    white-space: nowrap;
+   
+    height: 10px;
+    position: relative;
+    
+}
+
+
+/*============================RODA PÉ====================*/
+
+div.divrodape{
+    background-color: white;
+    background-size: 100% 110%;
+    background-repeat: no-repeat;   
+    margin-top:-124px;
+    z-index: 9999;
+    right: 10px;
+    box-shadow: inset 0px 0px 0px  black;
+    position:relative;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgba(34,211,35,1);
+}
+
+.divemail{
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    margin: 0 auto;
+    top:20px;
+    left:150px;
+}
+
+/*==============================FIM========================*/
+
+}
+
